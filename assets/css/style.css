@@ -1,0 +1,103 @@
+@import url('font.css');
+@import url('reset.css');
+@import url('variables.css');
+
+:root {
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+
+    --brown-800: hsl(14, 45%, 36%);
+
+    --rose-50: hsl(330, 100%, 98%);
+    --rose-800: hsl(332, 51%, 32%);
+
+    /* Typography */
+
+    --font-family-young-serif: 'YoungSerif', serif;
+    --font-weight-regular: 400;
+
+    --font-family-outfit: 'Outfit', sans-serif;
+
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --calc-075: 0.75rem;
+    /* 12px */
+
+    --calc-100: 1rem;
+    /* 16px */
+
+    --calc-125: 1.25rem;
+    /* 20px */
+
+    --calc-150: 1.5rem;
+    /* 24px */
+
+    --calc-200: 2rem;
+    /* 32px */
+
+    --calc-250: 2.5rem;
+    /* 40px */
+
+}
+
+body {
+    background-color: var(--stone-100);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: var(--font-family-outfit);
+    font-weight: var(--font-weight-regular);
+    line-height: 100%;
+    letter-spacing: 0px;
+    font-size: var(--calc-100);
+}
+
+.card {
+    background-color: var(--white);
+    padding: var(--calc-250);
+    max-width: 46rem;
+}
+
+.title h1 {
+    font-family: var(--font-family-young-serif);
+    font-size: var(--calc-250);
+    margin-top: var(--calc-250);
+    margin-bottom: var(--calc-150);
+}
+
+.title .desc
+{
+    color: var(--stone-600);
+    line-height: 150%;
+}
+
+.time
+{
+    background-color: var(--rose-50);
+    padding: var(--calc-150);
+    margin-top: var(--calc-200);
+    margin-bottom: var(--calc-200);
+    border-radius: var(--calc-075);
+}
+
+.time h3{
+    color: var(--rose-800);
+    font-size: var(--calc-125);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--calc-100);
+}
+
+
+/* # Front-end Style Guide
+
+- Mobile: 375px
+- Desktop: 1440px
+
+ */
