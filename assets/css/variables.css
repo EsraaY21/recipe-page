@@ -1,0 +1,55 @@
+:root {
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+
+    --brown-800: hsl(14, 45%, 36%);
+
+    --rose-50: hsl(330, 100%, 98%);
+    --rose-800: hsl(332, 51%, 32%);
+
+    /* Typography */
+
+    --font-family-young-serif: 'YoungSerif', serif;
+    --font-weight-regular: 400;
+
+    --font-family-outfit: 'Outfit', sans-serif;
+
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --calc-050: 0.5rem;
+    /* 8px */
+
+    --calc-075: 0.75rem;
+    /* 12px */
+
+    --calc-100: 1rem;
+    /* 16px */
+
+    --calc-125: 1.25rem;
+    /* 20px */
+
+    --calc-1375: 1.375rem;
+    /* 22px */
+
+    --calc-150: 1.5rem;
+    /* 24px */
+
+    --calc-175: 1.75rem;
+    /* 28px */
+
+    --calc-200: 2rem;
+    /* 32px */
+
+    --calc-250: 2.5rem;
+    /* 40px */
+
+    --calc-800: 8rem;
+    /* 128px */
+}
